@@ -1,0 +1,32 @@
+@keyframes slide {
+    from {
+        transform: translate(100px);
+    }
+
+    to {
+        transform: translate(300px);
+    }
+}
+body{
+    background: black;
+}
+.box {
+    background: red;
+    margin: 23% 30%;
+    border: 2px solid red;
+    width: 100px;
+    height: 100px;
+    
+
+
+    animation: slide 2s linear infinite alternate;    
+    /* animation-name: slide;
+    animation-duration: 2s;
+    animation-iteration-count: infinite; */
+}
+
+.text{
+    color: white;
+    text-align: center;
+    top: 100px;
+}
